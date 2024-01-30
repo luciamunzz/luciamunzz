@@ -1,0 +1,172 @@
+main{
+	background-color:#f8f8f8;
+	margin-left: 90px;
+	margin-right: 110px;}
+
+article p{
+	margin: 5px;
+	padding: 5px 5px 5px 0;
+	border-top: 2px solid #8b818d;
+	text-align: justify;}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	background-color:#f7f7f7 ;}
+
+td{
+	border-collapse: collapse;
+	text-align: left;
+	padding: 35px;
+	font-family:inherit;}
+
+th{
+	font-family: Arial, Helvetica, sans-serif;}
+
+tr{
+	border-bottom: 2px solid #433d3d; 
+}
+
+h2
+{
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+.ordenador
+{
+	background-color: #000000;
+	height: 50px;
+	width: 100%;
+}
+
+.ordenador p{color: rgb(255, 255, 255);}
+
+.samsung
+{ 
+	background-color: #ffffff; 
+	height: 100%;
+	width: 100%;
+}
+
+.barra 
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+	font-family: Arial, Helvetica, sans-serif;
+	max-width: 100%;
+	z-index: 1000;
+}
+
+.derecha{text-align: right;}
+
+.izquierda{text-align: left;margin-left: 25px;font-family: 'Franklin Gothic Medium';}
+
+.barra2
+{
+	background-color: #252425;
+	color: #ffffff;
+}
+
+.tablabarra{border-collapse: collapse;}
+
+.conten
+{
+	display: flex;
+	flex-direction: column;
+}
+
+figure {display: flex; justify-content: center;}
+
+.bateria
+{
+	font-size: 10px;
+}
+
+.fancy-button{padding: 2px;}
+
+.fancy-button::before
+{
+	content: '';
+	position: relative;
+}
+
+.barra2-de-palabras
+{
+	margin-left: 25px;
+}
+
+.barra-de-palabras .palabra1 
+{
+	margin-right: 25px;
+}
+.barra-de-palabras .palabra2 
+{
+	margin-right: 25px;
+}
+
+body
+{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+	height: 100%;
+	width: 100%;
+}
+
+.foto{text-align: center;}
+
+.foto img
+{
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+a 
+{
+	text-decoration: none;
+	color: #ffffff;
+	transition: linear 0.3s ease;
+	transition:linear 0.3s;
+}
+
+a:hover 
+{
+	border-top: #007bff;
+	color: #007bff;
+}
+
+.comprar
+{
+	color: white;
+	background-color: #007bff;
+	border-style:hidden;
+	border-radius: 9px;
+	padding: 8px;
+	justify-content:center;
+	padding-top: 8px;
+	margin: 2%;
+	margin-top: 2%;
+}
+
+.opinion
+{
+	justify-content: center;
+	display: flex;
+	margin-left: 650px;
+}
+
+footer
+{
+	clear: both;
+	text-align: center;
+	font-weight: bold;
+	color: #7d2741;
+	padding: 10px;
+	width: 90%;
+	margin: 0 auto;
+}

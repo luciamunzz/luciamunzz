@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: table;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-family: monospace;
+        }
+        fieldset{
+            padding: 20px 40px;
+            color: rgb(150, 83, 106);
+            background-color: rgb(187, 231, 233);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pedido de pizza</h1>
+    <form> 
+        <fieldset>
+            <legend><b>Pizza</b></legend> <br>
+            <h3>Ingredientes</h3>
+            <input type="checkbox" name="queso" value="queso">Queso<br>
+            <input type="checkbox" name="pimienta" value="pimienta">Pimienta<br>
+            <input type="checkbox" name="cebolla" value="cebolla">Cebolla<br>
+            <input type="checkbox" name="jamon york" value="jamon york">Jamón York<br>
+            <input type="checkbox" name="Bacon" value="bacon">Bacon<br>
+            <input type="checkbox" name="Champiñones" value="champiñones">Champiñones<br>
+            <br><h3>Tamaño</h3>
+            <input type="radio" name="tamaño" value="pequeño">Pequeño<br>
+            <input type="radio" name="tamaño" value="mediano">Mediano<br>
+            <input type="radio" name="tamaño" value="grande">Grande<br>
+        </fieldset>
+        <fieldset>
+            <legend><b>Datos Personales</b></legend>
+            Nombre: <input type="text" placeholder="Escribe la dirección" name="nom" maxlength="30" size="10"><br>
+            Dirección: <input type="text" placeholder="Escribe la dirección" name="cognoms" maxlength="30" size="20"><br>
+            Teléfono: <input type="text" placeholder="Escribe teléfono" name="password" size="20"><br>
+            Instrucciones especiales:<br> <textarea name="instrucciones especiales" rows="8" cols="50"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend><b>Método de pago</b></legend> <br>
+            <select>
+                <option value="Efectivo">Efectivo</option>
+                <option value="Tarjeta">Tarjeta</option>
+            </select>
+        </fieldset>
+            <input type="button" name="ok" onclick="alert('Gracias por su compra, su pedido llegará en los próximos minutos.')" value="Ok"><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{ display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+background-image: url(fondo5.png);
+background-size: cover;
+ }
+th{font-family:serif;color: rgb(95, 79, 65); background-color: rgb(193, 168, 142); width: 30cm; border: none;}
+
+table{text-align: center;
+    border-spacing: 05px;
+    padding: 15px;
+border: none;}
+
+td{border: none; height: 1cm; font-family:serif;}
+.frances{color: white;background-color: rgba(210, 194, 92, 0.682);}
+.bases{background-color: rgb(235, 191, 191);}
+.programacion{background-color: rgb(255, 216, 144);}
+.entornos{background-color: rgb(196, 139, 111);}
+.ingles{background-color: rgb(212, 207, 136);}
+.fol{background-color: darkgrey;}
+.sistemas{background-color: rgb(183, 176, 132);}
+.lenguaje{background-color: rgb(181, 129, 129);}
+.tutoria{background-color:rgb(139, 187, 184);}
+.deporte{background-color: rgba(228, 167, 88, 0.489);}
+.estudiar{border: 1px solid rgb(224, 145, 145)}
+.nada{background-color: rgba(227, 180, 115, 0.181);}
